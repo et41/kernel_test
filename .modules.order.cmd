@@ -1,1 +1,0 @@
-cmd_/home/eren/kernel_test/modules.order := {   echo /home/eren/kernel_test/helloworld.ko;   echo /home/eren/kernel_test/helloworld2.ko; :; } | awk '!x[$$0]++' - > /home/eren/kernel_test/modules.order
